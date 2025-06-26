@@ -104,6 +104,19 @@ terraform apply
 
 ### Run terraform command to create resource
 
+Create file **github-repo/terraform.tfvars**
+
+```sh
+region         = ""       # Define AWS region
+bucket_name    = "infra-lab-bucket"
+instance_name  = "infra-lab-instance"
+role_name      = "infra-lab-role"
+key_name       = "infra-lab-keypair"
+instance_type  = ""       # Define instance type: t2.micro, t2.medium...
+profile        = "default"
+keypair_path   = "~/.ssh/id_ed25519.pub"
+```
+
 Using terraform command line
 
 ```sh
