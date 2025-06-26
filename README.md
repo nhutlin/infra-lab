@@ -104,7 +104,7 @@ terraform apply
 
 ### Run terraform command to create resource
 
-Create file **github-repo/terraform.tfvars**
+Create file **infra-lab-web/terraform.tfvars**
 
 ```sh
 region         = ""       # Define AWS region
